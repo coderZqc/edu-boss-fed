@@ -1,0 +1,112 @@
+[
+  {
+    "routeid": 3,
+    "pid": -1,
+    "path": "/",
+    "name": "layout",
+    "redirect": "/home",
+    "component": "@/layout/index",
+    "isPublic": false,
+    "roles": []
+  },
+  {
+    "routeid": 4,
+    "pid": 3,
+    "path": "/home",
+    "name": "home",
+    "redirect": "",
+    "component": "@/views/home/index",
+    "isPublic": false,
+    "roles": []
+  },
+  {
+    "routeid": 5,
+    "pid": 3,
+    "path": "/permission/role",
+    "name": "role",
+    "redirect": "",
+    "component": "@/views/role/index",
+    "isPublic": false,
+    "roles": ["admin"]
+  },
+  {
+    "routeid": 6,
+    "pid": 3,
+    "path": "/permission/menu",
+    "name": "menu",
+    "redirect": "",
+    "component": "@/views/menu/index",
+    "isPublic": false,
+    "roles": ["admin"]
+  },
+  {
+    "routeid": 7,
+    "pid": 3,
+    "path": "/permission/resource",
+    "name": "resource",
+    "redirect": "",
+    "component": "@/views/resource/index",
+    "isPublic": false,
+    "roles": ["admin"]
+  },
+  {
+    "routeid": 8,
+    "pid": 3,
+    "path": "/permission/menu/create",
+    "name": "menu-create",
+    "redirect": "",
+    "component": "@/views/menu/create",
+    "isPublic": false,
+    "roles": ["admin"]
+  },
+  {
+    "routeid": 9,
+    "pid": 3,
+    "path": "/permission/menu/edit/:id",
+    "name": "menu-edit",
+    "redirect": "",
+    "component": "@/views/menu/edit",
+    "isPublic": false,
+    "roles": ["admin"]
+  },
+  {
+    "routeid": 10,
+    "pid": 3,
+    "path": "/course",
+    "name": "course",
+    "redirect": "",
+    "component": "@/views/course/index",
+    "isPublic": false,
+    "roles": ["admin", "editor"]
+  },
+  {
+    "routeid": 12,
+    "pid": 3,
+    "path": "/user",
+    "name": "user",
+    "redirect": "",
+    "component": "@/views/user/index",
+    "isPublic": false,
+    "roles": ["admin"]
+  },
+  {
+    "routeid": 15,
+    "pid": 3,
+    "path": "/advert",
+    "name": "advert",
+    "redirect": "",
+    "component": "@/views/advert/index",
+    "isPublic": false,
+    "roles": []
+  },
+  {
+    "routeid": 20,
+    "pid": 3,
+    "path": "/advert-space",
+    "name": "advert-space",
+    "redirect": "",
+    "component": "@/views/advert-space/index",
+    "isPublic": false,
+    "roles": []
+  }
+]

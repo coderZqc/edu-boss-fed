@@ -1,0 +1,31 @@
+// 全局样式（在入口模块被加载生效）
+@import './elements.scss';
+@import './settings.scss';
+@import './reset.scss';
+@import './mixin.scss';
+
+
+.status {
+  display: inline-block;
+  width: .875rem;
+  height: .875rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  cursor: pointer;
+  &-primary {
+    background-color: $--color-primary;
+  }
+  &-success {
+    background-color: $--color-success;
+  }
+  &-warning {
+    background-color: $--color-warning;
+  }
+  &-danger {
+    background-color: $--color-danger;
+  }
+  &-info {
+    background-color: $--color-info;
+  }
+
+}
